@@ -65,6 +65,8 @@ for(i = 0; i < numRows; i++){
 }
 
     //outputting table results
+    /* sources for .insertRow/insertCell and .innerHTML: https://www.w3schools.com/jsref/met_table_insertrow.asp
+    */
     for(i = 0; i < numRows; i++){
         userRow = userTable.insertRow();
 
